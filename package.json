@@ -1,0 +1,21 @@
+{
+  "name": "html-starter",
+  "version": "0.0.1",
+  "description": "webpack starter template for html",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
+    "stats": "webpack --json > stats.json && webpack-bundle-analyzer stats.json"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Ereburg <gimmethenick@gmail.com>",
+  "license": "ISC"
+}
